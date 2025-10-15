@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta>
+		<title>상세모집</title> 
+		<link rel="stylesheet" type="text/css" href="css/reset.css"> <!-- reset.css 파일 제작 -->
+		<style>
+			*{margin:0; padding:0;}
+				body{font-size:13px;}
+				li{list-style-type:none;}
+				img,fieldset{border:0;} 
+				table{border-collapse:collapse;}
+				table,th,td{border:1px solid #000;}
+
+			#wrapper { position:relative; display:inline-block;width:500px; height:400px; border:3px solid red; margin:10px 0 0 10px; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);  z-index: 0;  }
+			#wrapper img { position:absolute; top:0; left:0; width:500px; height:400px; opacity:0.7; }
+			#inner { position:relative; width:500px; height:400px;  z-index: 10;  }
+			/* z-index는 position이 있어야만 작동한다. */
+			/* header */
+			h1 { color:white; text-align:center; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); margin:50px 0; font-size:25px; }
+			ul { width:380px; height:130px; background:rgba(255, 255, 255, 0.5); margin:0 auto; }
+			ul li { list-style-type:disc; padding:10px; margin-left:35px; margin-top:10px; font-weight:500; }
+			p { color:white; text-align:right; margin:20px 60px 30px 0; font-weight:500;  }
+			/* footer */
+			p.bigP { color:white; text-align:center; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); font-size:20px; font-weight:550; margin:0; }
+		</style>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		<img src="images/image_fx.jpg" >
+			<div id="inner">
+			<h1>상세모집 지원 자격</h1>
+
+			<ul>
+				<li>성별: 무관</li>
+				<li>나이: 20세~60세</li>
+				<li>숨만 잘 쉬고 힘센 사람이면 누구나...환영</li>
+			</ul>
+			<p>많은 지원 바랍니다.|</p>
+			<p class="bigP">TEL : 02) 6958-5870</p>
+			<p class="bigP">FAX : 02) 2039-7362</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta>
+		<title>그랜드 오픈</title> <!-- 완성된 이미지를 보고 알맞은 타이틀을 입력 -->
+		<link rel="stylesheet" type="text/css" href="css/reset2.css"> <!-- reset.css 파일 제작 -->
+		<style>
+			*{margin:0; padding:0;}
+				body{font-size:12px;}
+				li{list-style-type:none;}
+				img,fieldset{border:0;} 
+				address, em { font-style:normal; }
+				table{border-collapse:collapse;}
+				table,th,td{border:1px solid #000;}
+
+			/* 주석을 3개 이상 작성해 주세요. */
+			body {  }
+			#wrapper { position:relative; width:600px; height:500px; background:url(images/bg.jpg) no-repeat; outline:3px solid black; margin:50px auto; }
+			#main { display:inline-block; width:570px; height:470px; background:linear-gradient(to bottom, blue, skyblue); border-radius:5px; margin:15px; }
+			#inner { display:inline-block; background:url(images/two_line.png) no-repeat; background-size:600px 500px; }
+			#header {  }
+			h1 { background:url(images/logo.png) no-repeat; width:130px; height:90px; text-indent:-999px; overflow:hidden; margin:45px 15px 15px 45px; float:left; filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.7)); }
+			h2 { color:white; font-weight:bold; font-size:28px; float:left; margin-top:70px; text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); }
+			/* 상단 div */
+			div.grandOpen { width:570px;  clear:both; }
+			.grandOpen img { margin-left:20px; }
+			/* 반짝이 부분 */
+			span.one {  position:absolute; top:155px; left:0px; }
+			span.two {  position:absolute; top:150px; left:310px; }
+			span.three {  position:absolute; top:200px; left:500px; }
+			/* 하단 div */
+			div#content { width:500px; height:200px; background:#12e1d3; border-radius:15px; margin:25px auto; }
+			.whiteBox { display:inline-block; width:480px; height:180px; background:white; border-radius:15px; margin:10px; }
+			.doubleImages { display:inline-block; width:480px; height:180px; background:url(images/dish.png)no-repeat 220px -35px, url(images/dish_shadow.png)no-repeat 210px -35px; border-radius:15px; margin:0px; background-size:350px 250px;  }
+			h3 { color:red; font-weight:1500; font-size:20px;margin:25px 0 20px 20px; letter-spacing:-1px; }
+			ul.list {  }
+			ul li {  color:gray; font-weight:bold; font-size:15px; background:url(images/heart.png) no-repeat; text-indent:20px; margin:0 0 5px 20px; letter-spacing:-1px; }
+			p { width:180px; height:33px; background:url(images/button.png) no-repeat; text-align:center; margin:20px 0 0 25px; }
+			p a { color:black; font-family:굴림; text-decoration:none; font-weight:bold; text-align:center; line-height:33px; font-size:14px; }
+		</style>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<div id="main">
+				<div id="inner">
+					<div id="header">
+						<h1>로고 이미지</h1>
+						<h2>화곡점 2025년 10월 14일</h2> <!-- '화곡점' 옆에 오늘 날짜를 삽입 -->
+						<div class="grandOpen">
+							<img src="images/open.png"> <!-- grand open 이미지 삽입 -->
+							<span class="one"><img src="images/shine.png"></span> <!-- shine 이미지 삽입 -->
+							<span class="two"><img src="images/shine.png"></span> <!-- shine 이미지 삽입 -->
+							<span class="three"><img src="images/shine.png"></span> <!-- shine 이미지 삽입 -->
+						</div>
+					</div><!-- main inner header 끝 -->
+					
+					<div id="content">
+						<div class="whiteBox">
+							<div class="doubleImages">
+								<h3>TGIF에서 함께 할 직원을 모집합니다.</h3>
+								<ul class="list">
+									<li>모집기간 : 2025년 10월 14일 ~ 상시채용</li>
+									<li>문의전화 : 02)6958-5870 / FAX : 02)2039-7362</li>
+								</ul>
+								<p><a href="mojip.html" target="_blank" class="mojip">입사지원서 작성하기</a></p> <!-- mojip.html을 새로운 창에 나타날 수 있게 삽입 -->
+							</div>
+						</div>
+					</div><!-- main inner content 끝 -->
+				</div><!-- main inner 끝 -->
+			</div><!-- main 끝 -->
+		</div><!-- wrapper 끝 -->
+	</body>
+</html>
